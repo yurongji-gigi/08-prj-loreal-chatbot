@@ -141,3 +141,73 @@ body {
 .site-footer a:hover {
   color: #666666;
 }
+body {
+  background: #faf8f4;
+  color: #1b1b1b;
+}
+
+.site-header {
+  padding: 24px 16px 20px;
+  text-align: center;
+}
+
+.site-title {
+  margin: 12px 0 0;
+  color: #1b1b1b;
+}
+
+.chat-window {
+  background: #fff;
+  border: 1px solid #d9c5a0;
+  border-radius: 16px;
+  overflow-y: auto;
+}
+
+.chat-form input {
+  border: 1px solid #b3a58c;
+  border-radius: 10px;
+}
+
+.chat-form button {
+  background: #1b1b1b;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.chat-form button:hover {
+  background: #57401f;
+}
+.chat-message {
+  width: fit-content;
+  max-width: 85%;
+  box-sizing: border-box;
+  margin: 0 0 12px;
+  padding: 10px 14px;
+  border-radius: 14px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  line-height: 1.5;
+}
+
+.chat-message--assistant {
+  margin-right: auto;
+  background: #f4efe5;
+  color: #1b1b1b;
+}
+
+.chat-message--user {
+  margin-left: auto;
+  background: #1b1b1b;
+  color: #fff;
+}
+.latest-question {
+  margin: 0 0 10px;
+  padding: 10px 14px;
+  border-left: 3px solid #b59255;
+  border-radius: 6px;
+  background: #f4efe5;
+  color: #1b1b1b;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
